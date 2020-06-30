@@ -12,6 +12,13 @@
           <p class="subtitle is-6">Preis: 30$</p>
         </div>
       </div>
+      <button class="button">Order</button>
     </div>
   </div>
 </template>
+
+<style scoped>
+.card {
+  margin: 10px;
+}
+</style>

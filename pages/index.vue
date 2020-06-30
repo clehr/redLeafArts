@@ -22,3 +22,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.columns {
+  margin-left: 15%;
+}
+</style>
