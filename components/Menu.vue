@@ -11,6 +11,7 @@
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
+        v-on:click="showNav = !showNav"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -18,7 +19,7 @@
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
       <div class="navbar-start">
         <nuxt-link v-bind:to="'/'" class="navbar-item">Shop</nuxt-link>
         <nuxt-link v-bind:to="'/about'" class="navbar-item">About</nuxt-link>
@@ -26,3 +27,13 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showNav: false
+    };
+  }
+};
+</script>
