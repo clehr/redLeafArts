@@ -1,5 +1,5 @@
 <template>
-  <div class="card column is-half is-offset-one-quarter">
+  <div class="card column">
     <div class="card-image">
       <figure class="image">
         <img src="~/assets/sarah.jpeg" alt="Placeholder image" />
@@ -22,3 +22,11 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.card {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
