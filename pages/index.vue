@@ -1,5 +1,5 @@
 <template>
-  <div class="columns is-multiline is-mobile">
+  <div class="columns is-multiline">
     <PaintingCard />
     <PaintingCard />
     <PaintingCard />

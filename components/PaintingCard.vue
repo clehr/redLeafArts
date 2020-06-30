@@ -1,5 +1,5 @@
 <template>
-  <div class="card column is-one-quarter">
+  <div class="card column is-one-quarter is-3">
     <div class="card-image">
       <figure class="image">
         <img src="~/assets/sarah.jpeg" alt="Placeholder image" />
